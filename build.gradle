@@ -237,6 +237,10 @@ if (project.hasProperty('nodeInstall')) {
     }
 }
 
+task start(type: Exec) {
+  commandLine 'yarn', 'start'
+}
+
 compileJava.dependsOn processResources
 processResources.dependsOn cleanResources,bootBuildInfo
 bootBuildInfo.mustRunAfter cleanResources
