@@ -40,7 +40,7 @@ spring:
         serialization.indent_output: true
     data:
         mongodb:
-            uri: mongodb://localhost:27017
+            uri: ${MONGO_URI}
             database: Kitchen
     mail:
         host: localhost
