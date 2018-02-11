@@ -1,0 +1,38 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.personalayurveda.service",
+      "nativeLanguage": "hi"
+    },
+    "jhipsterVersion": "4.14.0",
+    "baseName": "Kitchen",
+    "packageName": "com.personalayurveda.service",
+    "packageFolder": "com/personalayurveda/service",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "infinispan",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "mongodb",
+    "devDatabaseType": "mongodb",
+    "prodDatabaseType": "mongodb",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "gradle",
+    "enableSocialSignIn": false,
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "de11546f01cdd32ad860bc69ded68a94ed334178",
+    "clientFramework": "angularX",
+    "useSass": true,
+    "clientPackageManager": "yarn",
+    "applicationType": "monolith",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "enableTranslation": true,
+    "nativeLanguage": "hi",
+    "languages": [
+      "hi"
+    ]
+  }
+}
