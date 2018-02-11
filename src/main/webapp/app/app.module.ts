@@ -16,7 +16,11 @@ import { KitchenHomeModule } from './home/home.module';
 import { KitchenAdminModule } from './admin/admin.module';
 import { KitchenAccountModule } from './account/account.module';
 import { KitchenEntityModule } from './entities/entity.module';
+import { KitchenUserLoginModule } from './users/user-login/user-login.module';
+import { KitchenUserProfileModule } from './users/user-profile/user-profile.module';
 import { PaginationConfig } from './blocks/config/uib-pagination.config';
+import { AuthService } from './core/auth.service';
+import { AngularFireModule } from 'angularfire2';
 // jhipster-needle-angular-add-module-import JHipster will add new module here
 import {
     JhiMainComponent,
@@ -49,6 +53,7 @@ import {
         FooterComponent
     ],
     providers: [
+        AuthService,
         ProfileService,
         PaginationConfig,
         UserRouteAccessService,
